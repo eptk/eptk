@@ -19,9 +19,9 @@ Run the following python script, in order perform the following tasks.
 # Imports
 from eptk.dataset import ASHRAE_GEP3
 from eptk.utils import merge_data
-from eptk.preprocessing.feature_extraction import add_weather_features, add_temporal_features, include_holidays, category_to_numeric
+from eptk.preprocessing.feature_extraction import add_temporal_features
 from eptk.evaluation import prepare_data, CrossValidation
-from eptk.metrics import root_mean_squared_error, mean_absolute_error, mean_absolute_percentage_error, root_mean_squared_log_error, mean_squared_error
+from eptk.metrics import mean_absolute_error, root_mean_squared_log_error
 from eptk.models.ensemble import LightGBMPredictor
 # 1. Dataset loading
 ashrae = ASHRAE_GEP3()
