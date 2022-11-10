@@ -1,0 +1,15 @@
+{
+  "description": "The params were used for subset of data, sites with id :[0,1,2,3,4,15]",
+  "link": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/123481",
+  "model": "lgbm",
+  "params": {
+    "feature_fraction": 0.9,
+    "learning_rate": 0.2,
+    "metric": "rmse",
+    "n_estimators": 6000,
+    "num_leaves": 20,
+    "subsample": 0.2,
+    "subsample_freq": 1
+  },
+  "title": "lgbm_cHaOs"
+}

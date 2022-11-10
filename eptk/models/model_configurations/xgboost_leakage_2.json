@@ -1,0 +1,18 @@
+{
+  "description": "Params for xgboost model. kaggle_id : \u4e0d\u7528leakage\u4e0a\u5206\u592a\u96be\u4e86 ",
+  "link": "",
+  "model": "xgb",
+  "params": {
+    "colsample_bytree": 0.7,
+    "learning_rate": 0.05,
+    "max_depth": 12,
+    "missing": NaN,
+    "n_estimators": 6000,
+    "num_boost_round": 500,
+    "objective": "reg:squarederror",
+    "reg_lambda": 2,
+    "subsample": 0.8,
+    "tree_method": "gpu_hist"
+  },
+  "title": "xgboost_leakage_2"
+}

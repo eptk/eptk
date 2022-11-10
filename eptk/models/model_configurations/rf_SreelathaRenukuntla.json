@@ -1,0 +1,23 @@
+{
+  "description": "Params for RandomForest model.",
+  "link": "https://www.kaggle.com/sreelathar/ashrae-meter-reading-prediction",
+  "model": "rf",
+  "params": {
+    "bootstrap": true,
+    "criterion": "mse",
+    "max_depth": null,
+    "max_features": "auto",
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "n_estimators": 10,
+    "n_jobs": null,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "title": "rf_SreelathaRenukuntla"
+}

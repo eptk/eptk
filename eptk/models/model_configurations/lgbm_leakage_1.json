@@ -1,0 +1,22 @@
+{
+  "description": "Params for lightgbm model. kaggle_id : \u4e0d\u7528leakage\u4e0a\u5206\u592a\u96be\u4e86  Note: Removed early stopping rounds",
+  "link": "",
+  "model": "lgbm",
+  "params": {
+    "boosting_type": "gbdt",
+    "colsample_bytree": 0.7,
+    "learning_rate": 0.05,
+    "max_bin": 255,
+    "max_depth": -1,
+    "metric": "rmse",
+    "n_estimators": 800,
+    "n_jobs": -1,
+    "num_leaves": 256,
+    "objective": "regression",
+    "subsample": 0.7,
+    "subsample_freq": 1,
+    "tree_learner": "serial",
+    "verbose": -1
+  },
+  "title": "lgbm_leakage_1"
+}

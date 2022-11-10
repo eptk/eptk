@@ -1,0 +1,23 @@
+{
+  "description": "Params for feed forward neural network. ",
+  "link": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/124984",
+  "model": "ffnn",
+  "params": {
+    "activation": [
+      "relu",
+      "relu",
+      "relu",
+      "relu"
+    ],
+    "batch_size": 256,
+    "dropout": 0.2,
+    "epochs": 15,
+    "hidden_layers": [
+      64,
+      32,
+      32,
+      16
+    ]
+  },
+  "title": "ffnn_eagle4"
+}

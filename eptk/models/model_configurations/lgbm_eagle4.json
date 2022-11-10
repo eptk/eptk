@@ -1,0 +1,14 @@
+{
+  "description": "Params for feed forward neural network. ",
+  "link": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/124984",
+  "model": "lgbm",
+  "params": {
+    "feature_fraction": 0.7,
+    "learning_rate": 0.05,
+    "metric": "rmse",
+    "n_estimators": 6000,
+    "num_leaves": 40,
+    "subsample": 0.8
+  },
+  "title": "lgbm_eagle4"
+}

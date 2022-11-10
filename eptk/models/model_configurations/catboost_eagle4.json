@@ -1,0 +1,15 @@
+{
+  "description": "Params for feed forward neural network. ",
+  "link": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/124984",
+  "model": "cb",
+  "params": {
+    "depth": 8,
+    "eval_metric": "RMSE",
+    "learning_rate": 0.1,
+    "loss_function": "RMSE",
+    "metric_period": 10,
+    "n_estimators": 2000,
+    "task_type": "GPU"
+  },
+  "title": "catboost_eagle4"
+}

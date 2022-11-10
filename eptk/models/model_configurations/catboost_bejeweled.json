@@ -1,0 +1,19 @@
+{
+  "description": "Params for Catboost.",
+  "link": "https://www.kaggle.com/bejeweled/ashrae-catboost-regressor",
+  "model": "cb",
+  "params": {
+    "border_count": 32,
+    "depth": 7,
+    "early_stopping_rounds": 3000,
+    "eval_metric": "RMSE",
+    "iterations": 180000,
+    "l2_leaf_reg": 5,
+    "learning_rate": 0.01,
+    "loss_function": "RMSE",
+    "od_type": "Iter",
+    "random_seed": 42,
+    "task_type": "GPU"
+  },
+  "title": "catboost_bejeweled"
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Params for feed forward neural network used for subset of data, sites with id(s) : [13, 3, 9], The number of epoches for each sites is not the same. ",
+  "link": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/123481",
+  "model": "ffnn",
+  "params": {
+    "activation": [
+      "relu",
+      "tanh",
+      "tanh"
+    ],
+    "batch_size": 1000,
+    "dropout": 0.2,
+    "epochs": 17,
+    "hidden_layers": [
+      256,
+      64,
+      8
+    ]
+  },
+  "title": "ffnn_cHaOs_1"
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Params for feed forward neural network used for subset of data, sites with id(s) : 6 ",
+  "link": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/123481",
+  "model": "ffnn",
+  "params": {
+    "activation": [
+      "relu",
+      "tanh",
+      "tanh"
+    ],
+    "batch_size": 1000,
+    "dropout": 0.2,
+    "epochs": 31,
+    "hidden_layers": [
+      16,
+      4,
+      2
+    ]
+  },
+  "title": "ffnn_cHaOs_4"
+}

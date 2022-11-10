@@ -1,0 +1,18 @@
+{
+  "description": "Params for lightgbm model. kaggle_id : srbestha",
+  "link": "https://www.kaggle.com/srbestha/ashare-light-gbm",
+  "model": "lgbm",
+  "params": {
+    "boosting_type": "gbdt",
+    "feature_fraction": 0.9,
+    "lambda_l1": 1,
+    "lambda_l2": 1,
+    "learning_rate": 0.01,
+    "metric": "rmse",
+    "num_leaves": 31,
+    "objective": "regression",
+    "subsample": 0.25,
+    "subsample_freq": 1
+  },
+  "title": "lgbm_srbestha"
+}

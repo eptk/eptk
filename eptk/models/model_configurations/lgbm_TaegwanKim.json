@@ -1,0 +1,14 @@
+{
+  "description": "Params for lightgbm model. kaggle_id : Taegwan Kim",
+  "link": "https://www.kaggle.com/kimtaegwan/what-s-your-cv-method",
+  "model": "lgbm",
+  "params": {
+    "feature_fraction": 0.7,
+    "learning_rate": 0.05,
+    "metric": "rmse",
+    "n_estimators": 6000,
+    "num_leaves": 40,
+    "subsample": 0.4
+  },
+  "title": "lgbm_TaegwanKim"
+}

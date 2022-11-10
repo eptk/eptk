@@ -1,0 +1,19 @@
+{
+  "description": "Params for feed forward neural network. ",
+  "link": "https://www.kaggle.com/luisfer/mia-ashrae",
+  "model": "ffnn",
+  "params": {
+    "activation": [
+      "relu",
+      "relu"
+    ],
+    "batch_size": 1000,
+    "dropout": 0,
+    "epochs": 6,
+    "hidden_layers": [
+      1000,
+      100
+    ]
+  },
+  "title": "ffnn_luisfer"
+}

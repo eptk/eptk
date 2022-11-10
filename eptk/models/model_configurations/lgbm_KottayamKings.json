@@ -1,0 +1,16 @@
+{
+  "description": "Params for lightgbm model. kaggle_id : KottayamKings Note: Removed early stopping rounds",
+  "link": "https://www.kaggle.com/remisharoon/ashrae-gep-iii-rms-nb",
+  "model": "lgbm",
+  "params": {
+    "boosting": "gbdt",
+    "feature_fraction": 0.85,
+    "learning_rate": 0.05,
+    "metric": "rmse",
+    "num_boost_round": 1000,
+    "num_leaves": 40,
+    "objective": "regression",
+    "reg_lambda": 2
+  },
+  "title": "lgbm_KottayamKings"
+}
