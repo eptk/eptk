@@ -9,11 +9,11 @@ pip install git+https://github.com/eptk/eptk.git
 
 ## Getting started
 
-Run the following python script, in order perform the following tasks
+Run the following python script, in order perform the following tasks.
 - Load the dataset
 - Perform basic feature engineering 
-- Load a model
-- Benchmarking with forward chaining crossvalidation
+- Load a model and two evaluation metrics
+- Benchmarking with forward chaining crossvalidation with the selected metrics
 
 ```
 # Imports
